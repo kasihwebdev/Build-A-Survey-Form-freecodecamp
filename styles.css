@@ -177,3 +177,43 @@ form {
   border-radius: 2px;
   cursor: pointer;
 }
+
+/* Your existing CSS styles */
+
+/* Add new CSS for the form-container and footer */
+.form-container {
+  position: relative;
+}
+
+footer {
+  position: absolute;
+  bottom: -0.5rem; /* Adjust this value as needed to give proper spacing */
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: var(--color-white);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+:root {
+  /* Your color variables here */
+}
+
+/* Your existing CSS styles */
+
+/* Add new CSS for the form-container and footer */
+.form-container {
+  position: relative;
+}
+
+footer {
+  position: absolute;
+  bottom: -0.5rem; /* Adjust this value as needed to give proper spacing */
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: var(--color-white);
+  padding: 0.625rem;
+  border-radius: 0.25rem;
+}

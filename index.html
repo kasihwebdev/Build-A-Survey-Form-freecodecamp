@@ -14,68 +14,71 @@
       </p>
     </div>
 
-    <form id="survey-form">
-      <div class="form-group">
-        <label for="name" id="name-label">Name:<span class="clue">* </span></label>
-        <input type="text" class="form-control" id="name" required placeholder="Enter your name">
-      </div>
+    <div class="form-container"> <!-- Add a new container to group the form and footer -->
+      <form id="survey-form">
+        <div class="form-group">
+          <label for="name" id="name-label">Name:<span class="clue">* </span></label>
+          <input type="text" class="form-control" id="name" required placeholder="Enter your name">
+        </div>
 
-      <div class="form-group">
-        <label for="email" id="email-label">Email:<span class="clue">* </span></label>
-        <input type="email" class="form-control" id="email" required placeholder="Enter your email">
-      </div>
+        <div class="form-group">
+          <label for="email" id="email-label">Email:<span class="clue">* </span></label>
+          <input type="email" class="form-control" id="email" required placeholder="Enter your email">
+        </div>
 
-      <div class="form-group">
-        <label for="number" id="number-label">Number:<span class="clue">* </span></label>
-        <input type="number" class="form-control" id="number" required min="1" max="100" placeholder="Enter a number between 1 and 100">
-      </div>
+        <div class="form-group">
+          <label for="number" id="number-label">Number:<span class="clue">* </span></label>
+          <input type="number" class="form-control" id="number" required min="1" max="100" placeholder="Enter a number between 1 and 100">
+        </div>
 
-      <div class="form-group">
-        <label for="dropdown" id="dropdown-label">Select an option:<span class="clue">* </span></label>
-        <select id="dropdown" class="form-control">
-          <option value="option1">Option 1</option>
-          <option value="option2">Option 2</option>
-          <option value="option3">Option 3</option>
-        </select>
-      </div>
+        <div class="form-group">
+          <label for="dropdown" id="dropdown-label">Select an option:<span class="clue">* </span></label>
+          <select id="dropdown" class="form-control">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+          </select>
+        </div>
 
-      <div class="form-group">
-        <fieldset>
-          <legend>Choose an option:<span class="clue">* </span></legend>
-          <label class="form-check-label">
-            <input type="radio" name="radioOption" value="radioOption1" required class="input-radio"> Radio Option 1
-          </label>
-          <label class="form-check-label">
-            <input type="radio" name="radioOption" value="radioOption2" required class="input-radio"> Radio Option 2
-          </label>
-        </fieldset>
-      </div>
+        <div class="form-group">
+          <fieldset>
+            <legend>Choose an option:<span class="clue">* </span></legend>
+            <label class="form-check-label">
+              <input type="radio" name="radioOption" value="radioOption1" required class="input-radio"> Radio Option 1
+            </label>
+            <label class="form-check-label">
+              <input type="radio" name="radioOption" value="radioOption2" required class="input-radio"> Radio Option 2
+            </label>
+          </fieldset>
+        </div>
 
-      <div class="form-group">
-        <fieldset>
-          <legend>Select one or more options:<span class="clue">* </span></legend>
-          <label class="form-check-label">
-            <input type="checkbox" name="checkboxOption" value="checkboxOption1" class="input-checkbox"> Checkbox Option 1
-          </label>
-          <label class="form-check-label">
-            <input type="checkbox" name="checkboxOption" value="checkboxOption2" class="input-checkbox"> Checkbox Option 2
-          </label>
-        </fieldset>
-      </div>
+        <div class="form-group">
+          <fieldset>
+            <legend>Select one or more options:<span class="clue">* </span></legend>
+            <label class="form-check-label">
+              <input type="checkbox" name="checkboxOption" value="checkboxOption1" class="input-checkbox"> Checkbox Option 1
+            </label>
+            <label class="form-check-label">
+              <input type="checkbox" name="checkboxOption" value="checkboxOption2" class="input-checkbox"> Checkbox Option 2
+            </label>
+          </fieldset>
+        </div>
 
-      <div class="form-group">
-        <label for="comments">Additional Comments:</label>
-        <textarea id="comments" class="form-control input-textarea" rows="4" placeholder="Enter your comments here"></textarea>
-      </div>
+        <div class="form-group">
+          <label for="comments">Additional Comments:</label>
+          <textarea id="comments" class="form-control input-textarea" rows="4" placeholder="Enter your comments here"></textarea>
+        </div>
 
-      <div class="form-group">
-        <button type="submit" id="submit" class="submit-button">Submit</button>
-      </div>
-    </form>
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">Submit</button>
+        </div>
+      </form>
+
+      <footer> <!-- Footer inside the form container -->
+        <p> &copy; Kasihwebdev 2023. All rights reserved. </p>
+      </footer>
+    </div>
   </div>
-</body>
-  <footer>
-  <p> &copy; Kasihwebdev 2023. All rights reserved. </p>
-</footer>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
 </html>
